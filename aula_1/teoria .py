@@ -9,4 +9,10 @@ print ("Esse é o curso de logica de programação")
 
 # A sintaxe do comando é input ("mensagem")
 nome = input ( "Digite seu nome: ")
-print("Olá, ",nome)
+idade = int (input ( "Digite a sua idade: "))
+
+print("Olá, ",nome, "!A sua idade é ", idade)
+# O comando type () analisa o tipo de informação que está entre os parenteses
+print ( "O tipo da variável nome é ",type(nome))
+print ("O tipo da variável idade é",type(idade))
+
